@@ -14,6 +14,7 @@ pub mod execution;
 pub mod ids;
 pub mod labels;
 pub mod manifest;
+pub mod resilience_contracts;
 pub mod task_packet;
 pub mod telemetry;
 pub mod worker;
