@@ -266,9 +266,8 @@ pub fn work_receipt_stage(kind: &ExecutionEventKind) -> Option<WorkReceiptStage>
 #[allow(clippy::items_after_test_module)]
 mod tests {
     use super::*;
-    use crate::error::FailureClass;
     use crate::event::ExecutionEventKind;
-    use crate::{AttemptId, WorkerId};
+    use crate::WorkerId;
 
     fn ev(kind: ExecutionEventKind) -> ExecutionEventKind {
         kind
